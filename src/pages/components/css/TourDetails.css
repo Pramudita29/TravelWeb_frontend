@@ -1,0 +1,168 @@
+/* Base styling for the tour details wrapper */
+.tab_wrapper {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    width: 800px; /* Limit the maximum width */
+    margin-bottom: 5%; /* Center align the wrapper */
+    box-shadow: 0 4px 7px rgba(0,0,0,0.1);
+
+}
+
+/* Clear fix */
+.clear {
+    clear: both;
+}
+
+/* Styling for each tour attribute */
+.single_tour_attribute_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.one_fourth {
+    flex-basis: calc(25% - 10px); /* Adjust the width of each column */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Icons for tour attributes */
+.tour_attribute_icon {
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 30px; /* Adjust the size of the icon */
+    color: #333; /* Icon color */
+}
+
+/* Tour attribute content styling */
+.tour_attribute_content {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Styling for the image container */
+.wp-caption {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.wp-image-48 {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 27%;
+}
+
+/* Styling for the tour description */
+.p1 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Styling for departure list */
+.single_tour_departure_wrapper {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.single_tour_departure {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Departure content styling */
+.single_tour_departure_content {
+    width: 100%;
+}
+
+/* Departure item styling */
+.departure_item {
+    display: flex;
+    align-items: center; /* Vertically align items in the middle */
+    margin-right: 20px; /* Adjust spacing as needed */
+    margin-bottom: 10px;
+}
+
+.departure_item span {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Attribute styling, which includes the icon and text */
+.attribute {
+    display: flex;
+    align-items: center; /* Vertically align items in the middle */
+}
+
+.attribute svg {
+    font-size: 20px; /* Adjust the size of the icon */
+    margin-right: 5px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .one_fourth {
+        flex-basis: 100%;
+    }
+
+    .single_tour_departure_content {
+        flex-direction: column;
+    }
+}
+.wrapper-box {
+    width: 350px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.comment-title h3 {
+    margin-left: 5%;
+    color: #333;
+    text-align: center;
+}
+
+hr {
+    border: black;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.overall-rating-box {
+    /*margin: 20px 0;*/
+    box-shadow: black;
+    background-color: white;
+}
+
+.star {
+    color: #ccc; /* Default star color */
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.star.filled {
+    color: #ffc107; /* Filled star color */
+}
+
+.star:hover,
+.star:hover ~ .star.filled {
+    color: #ffeb3b; /* Hover star color */
+    cursor: pointer;
+}
+
+/* Add a transition effect when stars are filled or unfilled */
+.star {
+    transition: color 0.2s ease-in-out;
+}

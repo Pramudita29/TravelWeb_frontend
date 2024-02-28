@@ -1,0 +1,104 @@
+.booking-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.booked-tour h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 110px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.booking-list-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.booking-list-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.booking-list-card span {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+.booking-list-info {
+    flex: 1;
+}
+
+.user-name {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.booking-list-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.booking-list-card {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.icon-user {
+    margin-right: 15px;
+}
+
+.booking-list-info {
+    flex-grow: 1;
+}
+
+.user-name {
+    font-weight: bold;
+}
+

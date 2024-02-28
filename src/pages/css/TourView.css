@@ -1,0 +1,39 @@
+.view-img {
+    position: relative;
+    width: 1478px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    /*z-index: 1;*/
+    transition: 0.3s ease;
+}
+
+.view-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.view-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 70%;
+    width: 100%;
+}
+
+/* New styles for side by side layout */
+
+.tour-content {
+    display: flex; /* Use flexbox to align children side by side */
+    justify-content: space-around; /* Space out the children evenly */
+    background-color: white;
+    margin-right: 10%;
+}
+
+.tour-details, .tour-booking-form {
+    flex: 1; /* Allow both children to grow and fill the container */
+    margin: 10px; /* Add some space between the children */
+    /* Adjust padding, border, or other styles as needed */
+}
+.tourview-main{
+    background-color: white;
+}
