@@ -6,7 +6,6 @@ import TourBookingForm from "./components/TourBookingForm.tsx";
 import './css/TourView.css';
 import Footer from "./components/Footer.tsx";
 
-// Assuming you have a type for the Tour
 interface Tour {
     id: number;
     title: string;
@@ -30,7 +29,7 @@ const TourView: React.FC = () => {
                     <div className="view-info">
                         <h2 className="view-title">{tour.title}</h2>
                     </div>
-                    <div className="tour-content"> {/* Container for side by side layout */}
+                    <div className="tour-content">
                         <TourDetails />
                         <TourBookingForm />
                     </div>

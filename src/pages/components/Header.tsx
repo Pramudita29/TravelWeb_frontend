@@ -10,7 +10,6 @@ const Header: React.FC = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     useEffect(() => {
-        // Check for user data in localStorage
         const userData = localStorage.getItem('userId');
         if (userData) {
             setUser(JSON.parse(userData));
@@ -19,12 +18,12 @@ const Header: React.FC = () => {
 
     const handleLogout = () => {
         localStorage.clear();
-        navigate('/'); // Use navigate for SPA behavior instead of reloading the page
+        navigate('/');
     };
 
     const scrollToSection = (sectionId: string) => {
         return (e: React.MouseEvent) => {
-            e.preventDefault(); // Prevent default anchor behavior
+            e.preventDefault();
             const section = document.getElementById(sectionId);
             if (section) {
                 section.scrollIntoView({ behavior: 'smooth', block: 'start' });

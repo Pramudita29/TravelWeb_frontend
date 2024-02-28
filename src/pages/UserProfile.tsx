@@ -4,10 +4,10 @@ import Profiler from "./components/Profiler.tsx";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import './css/userProfile.css';
-import { FaTrash } from 'react-icons/fa'; // Import the trash icon
+import { FaTrash } from 'react-icons/fa';
 
 interface Booking {
-    id: string; // Assuming there's an id to uniquely identify each booking
+    id: string;
     tourName: string;
     tourDate: string;
     numPersons: number;

@@ -1,43 +1,41 @@
 .userProfileContainer {
-    /*margin-bottom: 12.5%;*/
     margin-top: 6.8%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto; /* Full screen height */
+    height: auto;
 }
 
 .profile-part {
     display: flex;
     align-items: center;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .profile-picture {
     width: 60px;
     height: 60px;
-    background-color: #007bff; /* Bootstrap primary blue */
-    color: #ffffff; /* White text color */
+    background-color: #007bff;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; /* Circular shape */
-    font-size: 24px; /* Larger font for initials */
-    margin-right: 20px; /* Spacing between picture and info */
+    border-radius: 50%;
+    font-size: 24px;
+    margin-right: 20px;
 }
 
 .profile-info div {
-    margin-bottom: 10px; /* Spacing between info lines */
+    margin-bottom: 10px;
 }
 
 .profile-info strong {
-    color: #333333; /* Dark grey color for emphasis */
+    color: #333333;
 }
 
-/* Optional: Style for the loading text */
 .profile-info p {
-    color: #888888; /* Light grey color */
+    color: #888888;
 }

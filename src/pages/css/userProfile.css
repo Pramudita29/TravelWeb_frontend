@@ -1,32 +1,31 @@
-/* userProfile.css */
 .user-bookings {
-    width: 600px; /* Limiting the width for better readability */
-    margin: 98px auto; /* Centering the bookings container */
+    width: 600px;
+    margin: 98px auto;
     padding: 20px;
-    background-color: #f9f9f9; /* A light background to differentiate the section */
-    border-radius: 8px; /* Softening the edges */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .user-bookings h2 {
-    color: #333; /* Dark color for contrast */
-    margin-bottom: 16px; /* Spacing below the title */
+    color: #333;
+    margin-bottom: 16px;
 }
 
 .user-bookings ul {
-    list-style: none; /* Removing default list styling */
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .user-bookings li {
-    background-color: #fff; /* White background for list items */
-    margin-bottom: 10px; /* Spacing between list items */
+    background-color: #fff;
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ddd; /* A subtle border */
-    border-radius: 4px; /* Slightly rounded corners for the list items */
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .user-bookings li:last-child {
-    margin-bottom: 0; /* Removing the margin from the last item */
+    margin-bottom: 0;
 }

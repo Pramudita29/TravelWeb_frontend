@@ -23,12 +23,10 @@ const ChangePasswordForm: React.FC = () => {
             });
 
             if (!response.ok) {
-                // If the server responds with a status code that indicates failure
                 const errorData = await response.json();
                 throw new Error(errorData.message || 'Failed to change password');
             }
 
-            // Assuming the response includes a message upon success
             const responseData = await response.json();
             setSuccessMessage(responseData.message || 'Password changed successfully!');
         } catch (error) {

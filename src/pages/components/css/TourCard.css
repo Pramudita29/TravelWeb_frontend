@@ -20,8 +20,8 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    width: 300px; /* Adjust as necessary */
-    height: auto; /* Adjust as necessary */
+    width: 300px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
     margin: 40px 20px;
@@ -66,7 +66,6 @@
 .t-card-info {
     position: relative;
     margin-top: 10px;
-    /*flex-direction: column-reverse;*/
     gap: 15px;
     padding: 5px;
     text-align: center;
@@ -87,19 +86,17 @@
     color: #444;
     text-align: center;
 }
-/* Assuming .yellow-star was initially used for all stars, let's redefine it for filled stars only */
 .yellow-star {
-    color: gold; /* Filled stars color */
+    color: gold;
 }
 
-/* Introduce new classes for unfilled stars and outlines if necessary */
 .gray-star {
-    color: #888888; /* Unfilled stars color */
+    color: #888888;
 }
 
 .star-size {
-    font-size: 20px; /* Adjust size as needed */
-    margin-right: 4px; /* Adds some spacing between stars */
+    font-size: 20px;
+    margin-right: 4px;
 }
 
 

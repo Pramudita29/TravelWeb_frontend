@@ -79,7 +79,7 @@ body{
 }
 
 .form-container h1 {
-    margin-bottom: 20px; /* Adjust this value to increase or decrease the gap */
+    margin-bottom: 20px;
 }
 
 .sign-in{
@@ -181,7 +181,6 @@ body{
 .main.active .toggle-right{
     transform: translateX(200%);
 }
-/* Additional styles for the form actions and Back button */
 .form-actions {
     display: flex;
     flex-direction: column;
@@ -191,12 +190,11 @@ body{
 }
 
 .back-button {
-    /*background-color: transparent;*/
-    /*color: #512da8; !* Adjust the color to match your design *!*/
+
     border: none;
-    margin-top: 20px; /* Space between the Sign In/Up and Back button */
+    margin-top: 20px;
     cursor: pointer;
-    font-size: 14px; /* Adjust the font size as needed */
-    padding: 10px 20px; /* Adjust padding as needed for better visibility */
+    font-size: 14px;
+    padding: 10px 20px;
 }
 

@@ -1,21 +1,18 @@
-/* Base styling for the tour details wrapper */
 .tab_wrapper {
     background-color: #ffffff;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 4px;
-    width: 800px; /* Limit the maximum width */
-    margin-bottom: 5%; /* Center align the wrapper */
+    width: 800px;
+    margin-bottom: 5%;
     box-shadow: 0 4px 7px rgba(0,0,0,0.1);
 
 }
 
-/* Clear fix */
 .clear {
     clear: both;
 }
 
-/* Styling for each tour attribute */
 .single_tour_attribute_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -24,32 +21,28 @@
 }
 
 .one_fourth {
-    flex-basis: calc(25% - 10px); /* Adjust the width of each column */
+    flex-basis: calc(25% - 10px);
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Icons for tour attributes */
 .tour_attribute_icon {
     margin-bottom: 5px;
     display: inline-block;
-    font-size: 30px; /* Adjust the size of the icon */
-    color: #333; /* Icon color */
+    font-size: 30px;
+    color: #333;
 }
 
-/* Tour attribute content styling */
 .tour_attribute_content {
     font-size: 14px;
     color: #333;
 }
 
-/* Styling for the image container */
 .wp-caption {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Image styling */
 .wp-image-48 {
     width: 100%;
     height: auto;
@@ -57,14 +50,12 @@
     margin-right: 27%;
 }
 
-/* Styling for the tour description */
 .p1 {
     color: #333;
     font-size: 16px;
     line-height: 1.6;
 }
 
-/* Styling for departure list */
 .single_tour_departure_wrapper {
     list-style: none;
     padding: 0;
@@ -79,16 +70,14 @@
     align-items: center;
 }
 
-/* Departure content styling */
 .single_tour_departure_content {
     width: 100%;
 }
 
-/* Departure item styling */
 .departure_item {
     display: flex;
-    align-items: center; /* Vertically align items in the middle */
-    margin-right: 20px; /* Adjust spacing as needed */
+    align-items: center;
+    margin-right: 20px;
     margin-bottom: 10px;
 }
 
@@ -97,18 +86,16 @@
     font-weight: bold;
 }
 
-/* Attribute styling, which includes the icon and text */
 .attribute {
     display: flex;
-    align-items: center; /* Vertically align items in the middle */
+    align-items: center;
 }
 
 .attribute svg {
-    font-size: 20px; /* Adjust the size of the icon */
+    font-size: 20px;
     margin-right: 5px;
 }
 
-/* Responsive design adjustments */
 @media (max-width: 768px) {
     .one_fourth {
         flex-basis: 100%;
@@ -147,22 +134,21 @@ hr {
 }
 
 .star {
-    color: #ccc; /* Default star color */
+    color: #ccc;
     font-size: 24px;
     margin: 0 5px;
 }
 
 .star.filled {
-    color: #ffc107; /* Filled star color */
+    color: #ffc107;
 }
 
 .star:hover,
 .star:hover ~ .star.filled {
-    color: #ffeb3b; /* Hover star color */
+    color: #ffeb3b;
     cursor: pointer;
 }
 
-/* Add a transition effect when stars are filled or unfilled */
 .star {
     transition: color 0.2s ease-in-out;
 }

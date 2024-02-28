@@ -1,47 +1,44 @@
 .footer h3 {
     margin-top: 0;
-    color: #fff; /* White color for the heading */
+    color: #fff;
 }
 
 .footer p {
-    color: #bbb; /* Lighter shade for the text */
-    margin-bottom: 20px; /* Add some space before the links */
+    color: #bbb;
+    margin-bottom: 20px;
 }
 
 .footer-link {
-    /* Display links inline */
     display: inline-block;
-    /* Spacing between links */
-    margin-bottom: 20px; /* Add some space after the links */
+    margin-bottom: 20px;
 }
 
 .footer-link a {
-    color: #fff; /* White color for links */
-    text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Add horizontal space around links */
-    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
 }
 
 .footer-link a:hover {
-    color: #4db8ff; /* Light blue color on hover */
+    color: #4db8ff;
 }
 
 .footer-date {
-    color: #bbb; /* Lighter shade for the copyright text */
-    font-size: small; /* Smaller font size */
+    color: #bbb;
+    font-size: small;
 }
 
-/* Additional: to ensure the footer sticks at the bottom */
 footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    position: relative; /* Keep header out of document flow and position it */
-    bottom: 0; /* Anchor the header to the top of the viewport */
-    left: 50%; /* Center the header horizontally */
-    transform: translateX(-50%); /* Adjust horizontal position to truly center */
-    width: 1478px; /* Make header full-width */
-    box-sizing: border-box; /* Include padding in the element's total width */
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1478px;
+    box-sizing: border-box;
 }

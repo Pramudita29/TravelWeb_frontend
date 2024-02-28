@@ -26,7 +26,7 @@ const Profiler: React.FC = () => {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const userData = await response.json();
-                console.log('User data:', userData); // Debugging log
+                console.log('User data:', userData);
                 setUser(userData);
             } catch (error) {
                 console.error('Error fetching user:', error);

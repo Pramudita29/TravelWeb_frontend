@@ -34,7 +34,6 @@ const TourDetails: React.FC = () => {
     const submitRating = async (rating: number) => {
         const token = localStorage.getItem('accessToken');
         const userId = localStorage.getItem('userId');
-        // Assuming a fixed tourId for demonstration. Replace with dynamic value as needed.
 
         if (!token) {
             alert('User is not logged in.');
@@ -108,7 +107,7 @@ const TourDetails: React.FC = () => {
     }
     const iconStyle = {
         color: 'black',
-        fontsize:'50px' // Adjust the size as needed
+        fontsize:'50px'
     };
 
 
@@ -200,7 +199,6 @@ const TourDetails: React.FC = () => {
                         </li>
                     ))}
                 </ul>
-                {/*{review part}*/}
                 <div className="wrapper-box">
                     <div className="comment-title">
                         <h3>Review</h3>
