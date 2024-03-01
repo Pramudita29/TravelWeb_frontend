@@ -1,0 +1,51 @@
+.content-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+    margin: 130px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.content-form h3 {
+    text-align: center;
+    color: #333;
+}
+
+.content-form input[type="text"],
+.content-form input[type="url"],
+.content-form textarea,
+.content-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.content-form textarea {
+    resize: vertical;
+}
+
+.content-form select {
+    cursor: pointer;
+    color: black;
+}
+
+.content-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.content-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}

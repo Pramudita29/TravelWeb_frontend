@@ -1,0 +1,59 @@
+/* Overall list container */
+.booking-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row; /* This ensures vertical stacking */
+    align-items: center; /* This centers the children horizontally */
+}
+
+.booked-tour h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    color: #333; /* Dark grey color, change as you like */
+    text-align: center; /* Center-align the heading */
+    margin-top: 110px; /* Remove space on the top to move it up */
+    font-weight: bold; /* Make the font bold */
+    padding-top: 10px; /* Optional: Add a little padding at the top if needed */
+}
+
+.booking-list-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.booking-list-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.booking-list-card span {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+.booking-list-info {
+    flex: 1;
+}
+
+.user-name {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.booking-list-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}

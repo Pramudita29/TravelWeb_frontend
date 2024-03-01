@@ -1,0 +1,33 @@
+.hero-section {
+    background-image: url('/Pokhara.jpg'); /* Replace with the path to your downloaded image */
+    height: 790px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 1478px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}

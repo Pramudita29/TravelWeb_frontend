@@ -1,0 +1,17 @@
+.header-img {
+    position: relative;
+    width: 1478px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    /*z-index: 1;*/
+    transition: 0.3s ease;
+}
+
+.header-title {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+

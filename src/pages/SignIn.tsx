@@ -14,7 +14,7 @@ const SignIn = () => {
     const saveData = useMutation(data => axios.post("http://localhost:8080/users/save", data), {
         onSuccess: () => {
             alert("Registration Successful!");
-            navigate('/login');
+            navigate('/SignIn');
         },
         onError: () => alert('Registration Failed! Please try again.')
     });
@@ -25,7 +25,7 @@ const SignIn = () => {
             if (token) {
                 localStorage.setItem("accessToken", token);
                 localStorage.setItem("userId", userId);
-                role === "admin" ? navigate('/admin') : navigate('/user');
+                role === "admin" ? navigate('/AdminPanel') : navigate('/');
             }
         },
         onError: () => alert('Login Failed! Please try again.')
@@ -67,8 +67,16 @@ const SignIn = () => {
             </div>
             <div className="toggle-container1">
                 <div className="toggle">
-                    <button className="hidden" id="login" onClick={handleToggle}>Sign In</button>
-                    <button className="hidden" id="register" onClick={handleToggle}>Sign Up</button>
+                    <div className="toggle-panel toggle-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Enter your personal details and start journey with us</p>
+                        <button className="hidden" id="login" onClick={handleToggle}>Sign In</button>
+                    </div>
+                    <div className="toggle-panel toggle-right">
+                        <h1>Hello, Wanderers!</h1>
+                        <p>Register with your personal details and start journey with us</p>
+                        <button className="hidden" id="register" onClick={handleToggle}>Sign Up</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,62 @@
+/* Reset margin and padding for all elements */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #c9d6ff linear-gradient(to right, #e2e2e2, #c9d6ff);
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+
+}
+
+
+/* Container for centering content */
+.container {
+    max-width: 1500px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Keeps it centered */
+    padding: 0 20px; /* Adds some padding on the sides */
+}
+
+
+/* Basic button styling */
+button {
+    display: inline-block;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Basic link styling */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Additional global styles as needed */

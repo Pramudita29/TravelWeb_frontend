@@ -1,0 +1,31 @@
+/* ValueTrips.css */
+
+.values {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.values-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tour-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed for your design */
+    gap: 20px; /* Creates space between cards */
+}
+
+.tour-card {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust this value to change the number of cards per row */
+    box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tour-card {
+        flex: 1 1 100%; /* Stack cards on smaller screens */
+    }
+}

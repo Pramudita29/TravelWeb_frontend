@@ -1,0 +1,85 @@
+/* General form styling */
+.booking {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.1);
+
+}
+
+.booking form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    /*margin-bottom: 20px;*/
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Adjustments for the Price component */
+.price p {
+    margin: 10px 0;
+    padding: 4px 0; /* Add padding for spacing around horizontal lines */
+}
+
+.price p:not(:last-child) {
+    border-bottom: 1px solid #ccc; /* Adds a horizontal line below each p except the last one */
+}
+
+.price p:first-child,
+.price p:last-child {
+    font-weight: bold; /* Makes the first and last p elements bold */
+}
+.book-title h1{
+    font-size: 30px;
+}
+/*.booking-container {*/
+/*    width: 400px;*/
+/*    margin: 0 auto;*/
+/*    box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+/*    border-radius: 8px;*/
+/*    overflow: hidden; !* Ensures child elements do not overflow the rounded border *!*/
+/*    height: auto;*/
+/*}*/
+
+.book-title {
+    background-color: #c9c5c5;
+    text-align: center;
+    padding: 20px;
+    margin: 0; /* Ensure no extra space around the title */
+}
